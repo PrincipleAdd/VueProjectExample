@@ -39,6 +39,11 @@
                 <MenuItem name="4-4">Option 12</MenuItem>
             </Submenu>
         </Menu>
+        <el-col :span="20" style="height: 100%;overflow: auto;">
+				<keep-alive>
+				    <router-view></router-view>
+				</keep-alive>
+		</el-col>
     </div>
 </template>
 
@@ -51,6 +56,8 @@
 <style scoped>
     .left-nav{
         height:100%;
+        width:240px;
+        float: left;
     }
 </style>
 

@@ -19,7 +19,7 @@ export default {
       go(){
           this.$router.push('/LayOut')
       }
-  }
+  },
 }
 </script>
 
