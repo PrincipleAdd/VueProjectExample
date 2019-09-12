@@ -4,7 +4,11 @@
         <LeftNav></LeftNav>
         <div>
             <Breadcrumb></Breadcrumb>
+            <div class="my-body">
+                <router-view></router-view>
+            </div>
         </div>
+        
     </div>
 </template>
 
@@ -21,3 +25,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .my-body{
+        float: left;
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+</style>

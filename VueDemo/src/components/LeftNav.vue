@@ -4,10 +4,10 @@
             <Submenu name="1">
                 <template slot="title">
                     <Icon type="ios-analytics" />
-                    Navigation One
+                    图片
                 </template>
                 <MenuGroup title="Item 1">
-                    <MenuItem name="1-1">Option 1</MenuItem>
+                    <MenuItem name="1-1" to='/ImageUpload'>图片上传</MenuItem>
                     <MenuItem name="1-2">Option 2</MenuItem>
                 </MenuGroup>
                 <MenuGroup title="Item 2">
@@ -39,11 +39,6 @@
                 <MenuItem name="4-4">Option 12</MenuItem>
             </Submenu>
         </Menu>
-        <el-col :span="20" style="height: 100%;overflow: auto;">
-				<keep-alive>
-				    <router-view></router-view>
-				</keep-alive>
-		</el-col>
     </div>
 </template>
 
